@@ -38,3 +38,10 @@ h1.subtitle
         color: #0087ff;
         size: 20px;
     }
+
+body.gttest
+    {
+        color: #ffffff;
+        background-color: #3c70f9;
+        text-align: center;
+    }
