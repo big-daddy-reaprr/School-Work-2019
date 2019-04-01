@@ -1,0 +1,98 @@
+@import "https://fonts.googleapis.com/css?family=Roboto";
+
+body
+    {
+        background-color: #000000;
+        color: #ff8800;
+        text-align: center;
+        font-family: 'Roboto', sans-serif
+    }
+
+#game
+    {
+        color: #ff8800;
+        text-align: center;
+        font-family: 'Roboto', sans-serif
+    }
+
+.bb
+    {
+        border-style: solid;
+        border-color: #FFFFFF;
+        border-width: 5px;
+        height: auto;
+        min-height: 88.5%;
+        width: auto;
+    }
+h1
+    {
+        font-family: 'Roboto', sans-serif;
+        text-align: center;
+        text-transform: capitalize; 
+    }
+
+h1.title
+    {
+        color: #4cff00;
+        border-style: solid;
+        border-width: 5px;
+        border-color: #FFFFFF;
+        size: 30px;
+    }
+
+h1.subtitle
+    {
+        color: #0087ff;
+        size: 20px;
+    }
+
+h1.subtitle2
+    {
+        color: #0087ff;
+        size: 20px;
+        text-decoration: underline;
+        text-decoration-color: #0087ff;
+    }
+
+button
+    {
+        background-color: #000000;
+        color: #FFFFFF;
+        text-align: center;
+        font-size: 16px;
+        padding: 7px 20px;
+        border: 2px solid #FFFFFF;
+    }
+
+button:hover
+    {
+        background-color: #FFFFFF;
+        transition-duration: 0.5s;
+        color: #000000;
+    }
+
+#shop
+    {
+        display: none;
+    }
+
+#sell
+    {
+        display: none;
+    }
+
+#intruct
+    {
+        display: block;
+    }
+
+#upg
+    {
+        display: none;
+    }
+
+
+.nb
+    {
+        font-weight: 100
+    }

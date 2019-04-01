@@ -1,0 +1,83 @@
+<HTML>
+    <!Foundation Page for building our JavaScript programs>
+        <HEAD>
+            <LINK rel="stylesheet" type='text/css' href="../For Loop.css">
+            <TITLE>FOR LOOP, PROGRAM 5</TITLE>
+            <!Change Title to name of Proj.>
+            <SCRIPT src="Problem 5.js"> </SCRIPT>
+        </HEAD>
+        <BODY>
+            <H1 class="title">Program 5</H1>
+            <!Change Header to name of Proj.>
+            <DIV class="bb">
+                <DIV>MPS: <DIV id="mps">1</DIV></DIV>
+                <DIV>Money: <DIV id='money'>$0</DIV></DIV>
+                <BR>
+                <BR>
+                <SCRIPT>LANGUAGE='JavaScript'> main(); </SCRIPT>
+                <BUTTON name="d" type="button" onclick=d(1)>Sell Items </BUTTON>
+                <BR>
+                <LI id="sell">
+                    <BR>
+                    <BUTTON type="button" onclick=sell(1)> Sell Lemonade (+$2)</BUTTON>
+                    <BUTTON type="button" onclick=sell(2)> Sell Home-Made Brownies (+$10)</BUTTON>
+                    <BUTTON type="button" onclick=sell(3)> Sell Cakes (+$25)</BUTTON>
+                    <BUTTON type="button" onclick=sell(4)> Sell Books (+60)</BUTTON>
+                    <BUTTON type="button" onclick=sell(5)> Repair Computers (+$125)</BUTTON>
+                    <BUTTON type="button" onclick=sell(6)> Perform Home Installations (+$250)</BUTTON>
+                    <P id="status1"></P>
+                </LI>
+                <BR>
+                <BUTTON name="d" type="button" onclick=d(2)>Shop</BUTTON>
+                <BR>
+                <LI id="shop">
+                    <BR>
+                    <BUTTON type="button" onclick=shop(1)> Buy Lemonade Stand ($100)</BUTTON>
+                    <BUTTON type="button" onclick=shop(2)> Buy Fast Food Resturant ($500)</BUTTON>
+                    <BUTTON type="button" onclick=shop(3)> Buy Retail Store ($1000)</BUTTON>
+                    <BUTTON type="button" onclick=shop(4)> Buy Tech Company ($1000000)</BUTTON>
+                    <P id="status2"></P>
+                </LI>
+                <BR>
+                <BUTTON name="d" type="button" onclick=d(3)> Upgrades </BUTTON>
+                <BR>
+                    <LI id="upg">
+                        <BR>
+                        <BUTTON type="button" onclick=upg(1)> Upgrade Lemonade Stand <B class="nb" id="nb_1"> 1 </B> ($<B class="nb" id="nb_1_c">1000</B>) </BUTTON>
+                        <BUTTON type="button" onclick=upg(2)> Upgrade Fast Food Resturant <B class="nb" id="nb_2"> 1 </B> ($<B class="nb" id="nb_2_c">5000</B>) </BUTTON>
+                        <BUTTON type="button" onclick=upg(3)> Upgrade Retail Store <B  class="nb" id="nb_3"> 1 </B> ($<B class="nb" id="nb_3_c">10000</B>) </BUTTON>
+                        <BUTTON type="button" onclick=upg(4)> Upgrade Tech Company <B class="nb" id="nb_4"> 1 </B> ($<B class="nb" id="nb_4_c">10000000</B>) </BUTTON>
+                        <P id="status3"></P>
+                    </LI>
+                <BR>
+                <BUTTON name="d" type="button" onclick=d(4)> Instructions </BUTTON>
+                <BR>
+                    <DIV id="int">
+                        <DIV>This is a money clicker game. The objective of the game is to acquire as much money as you can.</DIV>
+                        <BR>
+                        <DIV>
+                            MPS = Money per second<BR>
+                            Money = Total amount<BR>
+                        </DIV>
+                        <BR>
+                        <DIV>   
+                            Sell:<BR>
+                            For each tier of sellable goods, you must sell the previous goods a total of 25 times. This increases Money <BR>
+                            E.G. to sell Home-Made Brownies, you must sell 25 Lemonade.
+                        </DIV>
+                        <BR>
+                        <DIV>
+                            Shop:<BR>
+                            Items in the shop increase your MPS. Buy items with money, the higher MPS, the more money you make per second.<BR>
+                            There is no limit on the ammount of items you can buy or need to buy to be eligible to buy the next tier.
+                        </DIV>
+                        <BR>
+                        <DIV>
+                            Press the "Instructions" button to make this text disappear, and click again for this text to reapper. 
+                        </DIV>
+                    </DIV>
+                    <BR>
+                </DIV>    
+            </DIV>
+        </BODY>
+</HTML>    
